@@ -1,19 +1,16 @@
 <?php
 
 return [
-    'someLinks' => [
-        [
-            "href" => "/",
-            "text" => "Home Page",
-        ],
-        [
-            "href" => "/otherpage",
-            "text" => "Other Page",
-        ],
-        [
-            "href" => "https://laravel.com/docs/9.x",
-            "text" => "Documentation",
-        ]
+    'listNav' => [
+        'CHARACTERS',
+        'MOVIES',
+        'TV',
+        'GAMES',
+        'COLLECTIBLES',
+        'VIDEOS',
+        'FANS',
+        'NEWS',
+        'SHOP',
+        'COMICS'
     ],
-    'someOtherData' => [ 42, 37, 73],
 ];
