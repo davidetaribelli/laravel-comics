@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #303030;
+}
+
 header{
     img {
         height: 80%;
@@ -65,4 +69,51 @@ main.mainUp{
         cursor: pointer;
         background-color: #0282f9;
     }
+}
+
+main.mainDown{
+    background-color: #0282f9;
+    .col-12 {
+        min-height: 6.5rem;
+    }
+    
+    span {
+        font-size: 10px;
+    }
+    
+    img {
+        height: 50px;
+    }
+    
+    .visa {
+        height: 40p;
+    }
+}
+
+footer.footerUp{
+    li {
+        cursor: pointer;
+        list-style: none;
+        color: #787373;
+        font-size: 13px;
+    
+        &:hover {
+            color: #0282f9;
+        }
+    }
+    
+    .col-6>.img {
+        height: 100%;
+        background-image: url(img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0;
+    }
+}
+
+footer.footerDown{
+    span,
+img {
+    cursor: pointer;
+}
 }

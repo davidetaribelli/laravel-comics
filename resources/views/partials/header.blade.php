@@ -1,4 +1,4 @@
-<header>
+<header class="bg-light">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-4 d-flex align-items-center">
