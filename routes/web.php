@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $links = config('store.listNav');
-    return view('welcome', compact('links'));
+    $cards = config('store.cardList');
+    return view('welcome', compact('links', 'cards'));
 });
 

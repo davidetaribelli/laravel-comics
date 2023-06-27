@@ -7,14 +7,11 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #222;
-    color: white;
-}
-
-header img.logo {
-    height: 80%;
-
+header{
+    img {
+        height: 80%;
+    }
+    
     div>a {
         font-size: 10px;
         height: 100%;
@@ -22,5 +19,50 @@ header img.logo {
         &:hover {
             border-bottom: 5px solid #0282f9;
         }
+    }
+}
+
+main.mainUp{
+    .container-fluid {
+        height: 16rem;
+    
+        .row {
+            height: 100%;
+    
+            img {
+                height: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+    }
+    
+    .col-12 {
+        position: relative;
+    
+        .currentSeries {
+            position: absolute;
+            top: -1.4rem;
+            font-weight: 700;
+            background-color: #0282f9;
+        }
+    }
+    
+    .card_ {
+        width: calc(100vw / 8 - 2em);
+        height: calc(100vw / 8 - 2em);
+        margin: 1em;
+    
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    
+    .load_>button {
+        cursor: pointer;
+        background-color: #0282f9;
     }
 }
